@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 def configure_api(api_key: str):
-    genai.configure(api_key="AIzaSyBHXlI__9P7hHKzV5mSdXGYc0HKV55_tFM")
+    genai.configure(api_key="")
 
 def is_safe_content(text: str) -> bool:
     sensitive_words = ['suicide', 'kill', 'die', 'hurt']
